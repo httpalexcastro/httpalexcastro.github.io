@@ -11,7 +11,7 @@ Experienced Healthcare Partner skilled in collaborating with cross-functional te
 In addition to my responsibilities as an Operations Manager some of my other responsibilities / accomplishments in the team included:
 
 * Developed and implemented all standard operating procedures and Knowledge Bases for onboarding, training, and educating Diligent’s operation associates through the use of various LMS platforms. 
-* Coordinated and executed all implementation projects, digitally mapping out facilities, driving A/B testing, and executing QA validation of hardware and software.
+* Coordinated and executed all implementation projects, digitally mapping out facilities, Field Acceptance Testing, driving A/B testing, SLAM testing and executing QA validation of hardware and software.
 * Conducted surveys, analyzed product system logs, and performed user research campaigns to better understand trends and pain points from our many stakeholders across the country.
 
 <img src="images/Diligentgif.gif?raw=true"/>
