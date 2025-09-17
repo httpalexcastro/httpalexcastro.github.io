@@ -1,4 +1,4 @@
-## Expereince & Projects
+## Experience & Projects
 
 ---
 [Custom Robotics](/SISU)
