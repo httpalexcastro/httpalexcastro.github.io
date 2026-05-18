@@ -1,4 +1,6 @@
 ## Experience & Projects
+[Titan 3D Printer](/ICON)
+<img src="images/TITANICON.png?raw=true"/>
 
 ---
 [Custom Robotics](/SISU)
