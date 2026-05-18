@@ -14,11 +14,11 @@ In addition to my responsibilities as an Operations Manager some of my other res
 * Maintained risk registers and drove mitigation planning across program workstreams
 * Served as escalation point for schedule or scope conflicts between engineering and ops
 
-<img src="images/Diligentgif.gif?raw=true"/>
+<img src="images/pump.jpg?raw=true"/>
 
-<img src="images/moxiintuitive.jpg?raw=true"/>
+<img src="images/printer.jpg?raw=true"/>
 
-<img src="images/cedars.jpg?raw=true"/>
+<img src="images/buildos.jpg?raw=true"/>
 
 
 
