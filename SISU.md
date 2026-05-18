@@ -1,10 +1,10 @@
-# SISU Custom Robotics | Product Manager
+# SISU Custom Robotics | Product Owner
 
 <img src="images/custom robotics.jpg?raw=true"/>
 
 ## __Role Description__: 
 
-As a Product Manager for Sisu Custom Robotics, I play a multifaceted role defining features and product requirements for our mechanical and software engineering teams. My primary focus as Product Manager is owning and executing our product roadmap, ensuring that stakeholder needs are prioritized effectively and aligned with the product vision and the business strategy. I lead and guide cross-functional teams of software and hardware engineers, as well as manufacturing teams, to drive efficient development, assembly, budgeting, procurement, and supply chain processes.  
+As a Product Owner for Sisu Custom Robotics, I play a multifaceted role defining features and product requirements for our mechanical and software engineering teams. My primary focus as Product Manager is owning and executing our product roadmap, ensuring that stakeholder needs are prioritized effectively and aligned with the product vision and the business strategy. I lead and guide cross-functional teams of software and hardware engineers, as well as manufacturing teams, to drive efficient development, assembly, budgeting, procurement, and supply chain processes.  
 
 ## __Additional Responsabilities__:
 
