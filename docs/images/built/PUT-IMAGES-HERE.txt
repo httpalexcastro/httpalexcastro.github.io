@@ -1,0 +1,9 @@
+Upload your project photos/screenshots into this folder (or into subfolders you make here, e.g. images/built/my-project/).
+
+Then reference them from data/built.json, in that entry's "images" list, e.g.:
+
+"images": ["images/built/my-project-screenshot.png"]
+
+The first image in the list is also used as the project's card thumbnail on the "Things I've Built" page.
+
+Delete this file once you've added your own images — it's just a placeholder so this folder shows up when you upload the site.
