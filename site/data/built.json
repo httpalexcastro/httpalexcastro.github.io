@@ -1,0 +1,20 @@
+[
+  {
+    "id": "example-project",
+    "name": "EXAMPLE — replace me",
+    "title": "Personal Project",
+    "date": "2026",
+    "summary": "This is a placeholder card. Delete it (or edit it in place) once you add your own projects. See the README for exactly how to edit this file on GitHub.",
+    "fullDescription": [
+      "This is example detail text for a project. Replace it with a real write-up: what you built, why, and what it does.",
+      "You can add as many project entries as you want to data/built.json — each one automatically gets its own card here and its own detail page."
+    ],
+    "responsibilities": [
+      "Delete this example entry once you have real projects",
+      "Copy this block to add a new project card"
+    ],
+    "technologies": [],
+    "link": "",
+    "images": []
+  }
+]

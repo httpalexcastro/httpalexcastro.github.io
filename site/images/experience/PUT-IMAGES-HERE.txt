@@ -1,0 +1,7 @@
+Upload your job/project photos into this folder (or into subfolders you make here, e.g. images/experience/icon/).
+
+Then reference them from data/experience.json, in that entry's "images" list, e.g.:
+
+"images": ["images/experience/icon-printer.jpg", "images/experience/icon-buildos.jpg"]
+
+Delete this file once you've added your own images — it's just a placeholder so this folder shows up when you upload the site.
