@@ -34,5 +34,19 @@
     "technologies": ["iPad OS", "Procreate", "Apple Pencil", "Adobe Creative Studio", "Screen Printing", "My Brain", "Mark's Brain", "Mark going 'Chyea!'" ,"The indomitable human spirit"],
     "link": "",
     "images": ["images/built/Untitled_Artwork.PNG", "images/built/IMG_0508.JPG", "images/built/IMG_0519.JPG", "images/built/IMG_2290.jpg", "images/built/IMG_2289.jpg", "images/built/IMG_2285.jpg", "images/built/IMG_2286.jpg", "images/built/IMG_2267.jpg", "images/built/IMG_2288.jpg", "images/built/IMG_2287.jpg" ]
+  },
+  {
+    "id": "thissite",
+    "name": "This Website You're On",
+    "site": "WhoisAlexCastro.com",
+    "date": "2026",
+    "summary": "Need I say more about this beautiful website you're currently browsing? Did you see the speaker icon at the top? Press it to play some Tame Impala!",
+    "fullDescription": [
+      "I could put some more stuff in here, or you could browse the website and listen to a 90 second loop of Eventually by Tame Impala if you toggle the speaker icon up top!",
+      ""
+    ],
+    "technologies": ["Javascript", "HTML", "Node.js", "Github", "Claude",
+    "link": "",
+    "images": []
   }
 ]
