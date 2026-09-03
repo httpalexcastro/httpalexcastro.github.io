@@ -121,12 +121,14 @@ async function renderDetail({ dataUrl, containerEl, nameField }) {
         </div>
       </div>
       <div class="wrap">
-        <div class="detail-body">
+        <div class="detail-layout">
+          <div class="detail-content">
+            ${paragraphs}
+            ${responsibilities}
+            ${tech}
+            ${link}
+          </div>
           ${gallery}
-          ${paragraphs}
-          ${responsibilities}
-          ${tech}
-          ${link}
         </div>
       </div>
     `;
