@@ -167,3 +167,55 @@ async function renderContact(dataUrl, containerEl) {
     containerEl.innerHTML = `<div class="empty-state"><p>Couldn't load contact info right now. Try refreshing.</p></div>`;
   }
 }
+
+/* ---------------- Background audio toggle ---------------- */
+(function initAudioToggle() {
+  const audio = document.getElementById("bg-audio");
+  const toggle = document.getElementById("audio-toggle");
+  if (!audio || !toggle) return;
+
+  const STORAGE_KEY = "bgAudioOn";
+
+  function setPlayingUI(isPlaying) {
+    toggle.classList.toggle("is-playing", isPlaying);
+    toggle.setAttribute("aria-pressed", isPlaying ? "true" : "false");
+    const label = isPlaying ? "Pause background music" : "Play background music";
+    toggle.setAttribute("aria-label", label);
+    toggle.title = label;
+  }
+
+  function play() {
+    audio.play().then(() => {
+      setPlayingUI(true);
+      localStorage.setItem(STORAGE_KEY, "true");
+    }).catch(() => {
+      // Autoplay was blocked (e.g. no prior user gesture on this page load).
+      setPlayingUI(false);
+    });
+  }
+
+  function pause() {
+    audio.pause();
+    setPlayingUI(false);
+    localStorage.setItem(STORAGE_KEY, "false");
+  }
+
+  toggle.addEventListener("click", () => {
+    if (audio.paused) {
+      play();
+    } else {
+      pause();
+    }
+  });
+
+  audio.addEventListener("play", () => setPlayingUI(true));
+  audio.addEventListener("pause", () => setPlayingUI(false));
+
+  // If the visitor turned audio on earlier in this browsing session, keep it
+  // going on the next page too. Browsers may still block this without a
+  // fresh user gesture on the new page load; if so the toggle just falls
+  // back to its "off" state and the visitor can tap it again.
+  if (localStorage.getItem(STORAGE_KEY) === "true") {
+    play();
+  }
+})();
