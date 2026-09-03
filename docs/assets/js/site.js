@@ -69,7 +69,7 @@ async function renderCardGrid({ dataUrl, gridEl, emptyEl, nameField, detailPage,
 /**
  * Renders a single item's full detail view based on the ?id= query param.
  */
-async function renderDetail({ dataUrl, containerEl, nameField }) {
+async function renderDetail({ dataUrl, containerEl, nameField, showTitleField = true, responsibilitiesHeading = "What I did" }) {
   const params = new URLSearchParams(window.location.search);
   const id = params.get("id");
   try {
@@ -93,7 +93,7 @@ async function renderDetail({ dataUrl, containerEl, nameField }) {
       : "";
 
     const responsibilities = (item.responsibilities || []).length
-      ? `<h2>What I did</h2><ul>${item.responsibilities.map((r) => `<li>${escapeHTML(r)}</li>`).join("")}</ul>`
+      ? `<h2>${escapeHTML(responsibilitiesHeading)}</h2><ul>${item.responsibilities.map((r) => `<li>${escapeHTML(r)}</li>`).join("")}</ul>`
       : "";
 
     const tech = (item.technologies || []).length
@@ -104,15 +104,19 @@ async function renderDetail({ dataUrl, containerEl, nameField }) {
       ? `<p><a class="btn" href="${escapeHTML(item.link)}" target="_blank" rel="noopener">View it ${ARROW_SVG}</a></p>`
       : "";
 
+    const titleField = showTitleField
+      ? `<div class="detail-meta-item">
+              <span class="meta-label">Title</span>
+              <span class="meta-value">${escapeHTML(item.title)}</span>
+            </div>`
+      : "";
+
     containerEl.innerHTML = `
       <div class="detail-hero">
         <div class="wrap">
           <h1>${escapeHTML(item[nameField])}</h1>
           <div class="detail-meta-strip">
-            <div class="detail-meta-item">
-              <span class="meta-label">Title</span>
-              <span class="meta-value">${escapeHTML(item.title)}</span>
-            </div>
+            ${titleField}
             <div class="detail-meta-item">
               <span class="meta-label">Date</span>
               <span class="meta-value">${escapeHTML(item.date)}</span>
@@ -121,14 +125,12 @@ async function renderDetail({ dataUrl, containerEl, nameField }) {
         </div>
       </div>
       <div class="wrap">
-        <div class="detail-layout">
-          <div class="detail-content">
-            ${paragraphs}
-            ${responsibilities}
-            ${tech}
-            ${link}
-          </div>
+        <div class="detail-content">
+          ${paragraphs}
+          ${responsibilities}
+          ${tech}
           ${gallery}
+          ${link}
         </div>
       </div>
     `;
