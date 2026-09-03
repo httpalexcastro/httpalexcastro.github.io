@@ -2,7 +2,7 @@
 
 My professional portfolio site, built as a plain static site (HTML/CSS/JS, no build step) so it runs directly on GitHub Pages.
 
-This README is for **me** (or anyone else editing this later) — it explains how to update the content **entirely through the GitHub website**, without needing a code editor, git, or any help from Claude.
+This README is for **me**. It explains how to update the content **entirely through the GitHub website**, without needing a code editor, git, or any help from Claude.
 
 The site's live files all live inside the `docs/` folder of this repository — that's the folder GitHub Pages is configured to publish from. Every path below starts with `docs/` for that reason.
 
@@ -33,7 +33,7 @@ The site's live files all live inside the `docs/` folder of this repository — 
 
 That's it — no installs, no terminal, no pull requests required.
 
-## JSON basics — don't let this scare you
+## JSON basics 
 
 These `.json` files are just lists of `{ }` blocks. A few rules that matter:
 
