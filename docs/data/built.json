@@ -22,3 +22,21 @@
     "images": ["images/built/PGM0.png", "images/built/PGM1.png", "images/built/PGM2.png", "images/built/PGM3.png", "images/built/PGM4.png", "images/built/PGM5.png", "images/built/PGM6.png"]
   }
 ]
+
+[
+  {
+    "id": "bwe",
+    "name": "Before We Expire®",
+    "site": "Work In Progress",
+    "date": "2023 - Present",
+    "summary": "A fashion label with roots in the beautiful desert oasis that is Austin, Texas. Co-Founded by Myself and Creative Vissionary Mark Mendoza",
+    "fullDescription": [
+      "Before We Expire (BWE) reads like a warning whispered to yourself in a mirror. Two founders, one studio, working in that space between. It's a countdown somebody started and won't say out loud.",
+      "Some visions already crossed over into fabric, into something you can put your arms through. The rest are still on the other side of that glass, unfinished, watching, waiting to see if they get pulled through before the light goes out.You don't wear this because it looks good. You wear it because some part of you recognized itself in it before you understood why."
+    ],
+    
+    "technologies": ["iPad OS", "Procreate", "Apple Pencil", "Adobe Creative Studio", "Screen Printing", "My Brain", "Mark's Brain", "Mark going 'Chyea!'" ,"The indomitable human spirit"],
+    "link": "",
+    "images": ["images/built/Untitled_Artwork.PNG", "images/built/IMG_0508.JPG", "images/built/IMG_0519.JPG", "images/built/IMG_2290.jpg", "images/built/IMG_2289.jpg", "images/built/IMG_2290.jpg", "images/built/IMG_2285.jpg", "images/built/IMG_2286.jpg", "images/built/IMG_2267.jpg", "images/built/IMG_2285.jpg","images/built/IMG_2288.jpg", "images/built/IMG_2287.jpg" ]
+  }
+]
