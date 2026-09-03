@@ -26,7 +26,7 @@ function escapeHTML(str) {
  * true and the item has an `images` array, the first image is shown as
  * a thumbnail at the top of the card.
  */
-async function renderCardGrid({ dataUrl, gridEl, emptyEl, nameField, detailPage, showThumbnail }) {
+async function renderCardGrid({ dataUrl, gridEl, emptyEl, nameField, detailPage, showThumbnail, showTitleField = true }) {
   try {
     const items = await fetchJSON(dataUrl);
     if (!items || items.length === 0) {
@@ -39,6 +39,12 @@ async function renderCardGrid({ dataUrl, gridEl, emptyEl, nameField, detailPage,
       const thumb = firstImage
         ? `<div class="card-thumb"><img src="${escapeHTML(firstImage)}" alt="${escapeHTML(item[nameField])}" loading="lazy" onerror="this.closest('.card-thumb').remove()"></div>`
         : "";
+      const titleRow = showTitleField
+        ? `<div class="card-meta-row">
+            <span class="meta-label">Title</span>
+            <span class="meta-value">${escapeHTML(item.title)}</span>
+          </div>`
+        : "";
       return `
       <article class="card">
         ${thumb}
@@ -49,10 +55,7 @@ async function renderCardGrid({ dataUrl, gridEl, emptyEl, nameField, detailPage,
             <span class="meta-label">Date</span>
             <span class="meta-value">${escapeHTML(item.date)}</span>
           </div>
-          <div class="card-meta-row">
-            <span class="meta-label">Title</span>
-            <span class="meta-value">${escapeHTML(item.title)}</span>
-          </div>
+          ${titleRow}
         </div>
         <a class="btn" href="${detailPage}?id=${encodeURIComponent(item.id)}">
           Read More Details ${ARROW_SVG}
