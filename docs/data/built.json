@@ -11,15 +11,14 @@
     ],
     "responsibilities": [
       "Delete this example entry once you have real projects",
-      "Lab/XRF module computing estimated returned troy ounces from raw sensor readings, and a Market Pricing module computing gross value, refining/treatment deductions, and net value per lot"
-      "Per-customer contract pricing (refining rates, treatment rates)"
-      "Shipping with two workflows, auto-generating print-ready Bill of Lading, packing list, and label documents for warehouse staff."
-      "A searchable, filterable Archive of everything already shipped."
-      "Employee Resources: an admin-managed document library backed by Azure Blob Storage."
+      "Lab/XRF module computing estimated returned troy ounces from raw sensor readings, and a Market Pricing module computing gross value, refining/treatment deductions, and net value per lot",
+      "Per-customer contract pricing (refining rates, treatment rates)",
+      "Shipping with two workflows, auto-generating print-ready Bill of Lading, packing list, and label documents for warehouse staff.",
+      "A searchable, filterable Archive of everything already shipped.",
+      "Employee Resources: an admin-managed document library backed by Azure Blob Storage.",
       "QR code generation/scanning for physical lot tracking on the floor."
-      
     ],
-    "technologies used": [Javascript, HTML, Node.js, Azure Cosmos DB (NoSQL), AI, Claude, Gemini],
+    "technologies": ["Javascript", "HTML", "Node.js", "Azure Cosmos DB (NoSQL)", "AI", "Claude", "Gemini"],
     "link": "",
     "images": []
   }
