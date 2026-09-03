@@ -134,6 +134,55 @@ nav.primary-nav a.active {
   background: var(--card-bg);
 }
 
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.audio-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  background: var(--card-bg);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.audio-toggle:hover {
+  background: var(--card-bg-hover);
+  color: var(--text);
+}
+
+.audio-toggle .audio-wave {
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+.audio-toggle .audio-mute-line {
+  opacity: 1;
+  transition: opacity 0.15s ease;
+}
+
+.audio-toggle.is-playing {
+  color: var(--black);
+  border-color: var(--black);
+}
+
+.audio-toggle.is-playing .audio-wave {
+  opacity: 1;
+}
+
+.audio-toggle.is-playing .audio-mute-line {
+  opacity: 0;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -502,6 +551,9 @@ footer.site-footer .wrap {
     gap: 12px;
   }
   nav.primary-nav {
+    flex-wrap: wrap;
+  }
+  .nav-right {
     flex-wrap: wrap;
   }
 }
