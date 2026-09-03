@@ -45,8 +45,8 @@
       "I could put some more stuff in here, or you could browse the website and listen to a 90 second loop of Eventually by Tame Impala if you toggle the speaker icon up top!",
       ""
     ],
-    "technologies": ["Javascript", "HTML", "Node.js", "Github", "Claude",
+    "technologies": ["Javascript", "HTML", "Node.js", "Github", "Claude"],
     "link": "",
     "images": []
-  },
+  }
 ]
