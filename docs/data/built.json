@@ -40,13 +40,13 @@
     "name": "This Website You're On",
     "site": "WhoisAlexCastro.com",
     "date": "2026",
-    "summary": "Need I say more about this beautiful website you're currently browsing? Did you see the speaker icon at the top? Press it to play some Tame Impala!",
+    "summary": "I built this site from the ground up, edited it directly in Github, and setup a DNS to host whoisalexcatro.com. Need I say more about this beautiful website you're currently browsing? Did you see the speaker icon at the top? Press it to play some Tame Impala!",
     "fullDescription": [
       "I could put some more stuff in here, or you could browse the website and listen to a 90 second loop of Eventually by Tame Impala if you toggle the speaker icon up top!",
       ""
     ],
     "technologies": ["Javascript", "HTML", "Node.js", "Github", "Claude"],
     "link": "",
-    "images": []
+    "images": ["images/built/Me.png"]
   }
 ]
