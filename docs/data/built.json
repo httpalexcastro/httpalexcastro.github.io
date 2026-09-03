@@ -47,6 +47,6 @@
     ],
     "technologies": ["Javascript", "HTML", "Node.js", "Github", "Claude"],
     "link": "",
-    "images": ["images/built/Me.png"]
+    "images": ["images/built/Me.png", "images/built/git.png"],
   }
 ]
