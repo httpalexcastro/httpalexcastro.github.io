@@ -1,19 +1,25 @@
 [
   {
-    "id": "example-project",
-    "name": "EXAMPLE — replace me",
-    "title": "Personal Project",
+    "id": "pgmproduction",
+    "name": "Production/Operations Web App",
+    "site": "Pgmproduction.biz",
     "date": "2026",
-    "summary": "This is a placeholder card. Delete it (or edit it in place) once you add your own projects. See the README for exactly how to edit this file on GitHub.",
+    "summary": "A full-stack production tracking dashboard for PGM, a precious-metals recycling subsidiary under Elemental North America, built to replace spreadsheet/manual tracking with a real multi-user system",
     "fullDescription": [
-      "This is example detail text for a project. Replace it with a real write-up: what you built, why, and what it does.",
-      "You can add as many project entries as you want to data/built.json — each one automatically gets its own card here and its own detail page."
+      "pgmproduction.biz is a live data dashboard, backed by an actual database rather than local storage. It tracks a lot (a batch of material) through its entire lifecycle: Intake, cutting, milling, lab analysis, pricing, shipping, and archiving with role-based permissions so admins and regular staff see different levels of access per module.",
+      "~9,600 lines of code, 41 API endpoints, 24 backend business-logic modules, and a 111-test automated suite"
     ],
     "responsibilities": [
       "Delete this example entry once you have real projects",
-      "Copy this block to add a new project card"
+      "Lab/XRF module computing estimated returned troy ounces from raw sensor readings, and a Market Pricing module computing gross value, refining/treatment deductions, and net value per lot"
+      "Per-customer contract pricing (refining rates, treatment rates)"
+      "Shipping with two workflows, auto-generating print-ready Bill of Lading, packing list, and label documents for warehouse staff."
+      "A searchable, filterable Archive of everything already shipped."
+      "Employee Resources: an admin-managed document library backed by Azure Blob Storage."
+      "QR code generation/scanning for physical lot tracking on the floor."
+      
     ],
-    "technologies": [],
+    "technologies used": [Javascript, HTML, Node.js, Azure Cosmos DB (NoSQL), AI, Claude, Gemini],
     "link": "",
     "images": []
   }
