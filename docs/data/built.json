@@ -20,6 +20,6 @@
     ],
     "technologies": ["Javascript", "HTML", "Node.js", "Azure Cosmos DB (NoSQL)", "AI", "Claude", "Gemini"],
     "link": "",
-    "images": [images/built/PGMo.png]
+    "images": ["images/built/PGM0.png"]
   }
 ]
