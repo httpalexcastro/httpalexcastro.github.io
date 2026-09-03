@@ -10,7 +10,6 @@
       "~9,600 lines of code, 41 API endpoints, 24 backend business-logic modules, and a 111-test automated suite"
     ],
     "responsibilities": [
-      "Delete this example entry once you have real projects",
       "Lab/XRF module computing estimated returned troy ounces from raw sensor readings, and a Market Pricing module computing gross value, refining/treatment deductions, and net value per lot",
       "Per-customer contract pricing (refining rates, treatment rates)",
       "Shipping with two workflows, auto-generating print-ready Bill of Lading, packing list, and label documents for warehouse staff.",
