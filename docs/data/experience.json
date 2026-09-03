@@ -35,7 +35,7 @@
       "Coordinated cross-functional execution across embedded firmware, software, and mechanical engineering"
     ],
     "technologies": ["Atlassian Jira", "Confluence", "Google Suite", "Google Cloud", "Linux", "Miro", "Grafana"],
-    "images": []
+    "images": ["images/experience/ICON1.png", "images/experience/ICON2.png", "images/experience/ICON3.png", "images/experience/ICON4.png", "images/experience/ICON1.png"]
   },
   {
     "id": "sisu",
@@ -54,7 +54,7 @@
       "Managed multiple concurrent project roadmaps simultaneously"
     ],
     "technologies": ["SolidWorks PDM", "Oracle NetSuite", "Atlassian Jira", "Confluence", "Google Suite", "Microsoft Suite", "ProductPlan", "Coda.io", "Aha!", "SmartSheets", "Trello", "Miro"],
-    "images": []
+    "images": ["images/experience/sisu1.png", "images/experience/sisu2.png", "images/experience/sisu3.png"]
   },
   {
     "id": "diligent",
@@ -74,7 +74,7 @@
       "Managed product redesign, QA validation, SLAM testing, and A/B testing"
     ],
     "technologies": ["Jira", "Salesforce", "Google Suite", "Google Cloud", "Linux", "Coda.io", "Rocos", "SmartSheets", "Ionic.io", "SQL"],
-    "images": []
+    "images": ["images/experience/Moxi1.png", "images/experience/Moxi2.png", "images/experience/Moxi3.png"]
   },
   {
     "id": "storz",
@@ -93,6 +93,6 @@
       "Launched the flagship and largest clinical support account in Texas for Karl Storz in the US"
     ],
     "technologies": [],
-    "images": []
+    "images": ["images/experience/Storz1.png", "images/experience/Storz2.png", "images/experience/Storz3.png"]
   }
 ]
